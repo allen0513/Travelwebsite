@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="浙里风光 - 浙里风光旅游网，您的浙江旅游专属指南。原创内容，专业攻略，为您呈现最真实的浙江风光与文化底蕴。">
+    <meta name="keywords" content="浙江旅游,浙里风光,旅游攻略,原创攻略,浙江景点,西湖,千岛湖,雁荡山">
+    <link rel="icon" href="image/logo.png" type="image/png">
+    <title>浙里风光 - 发现浙江，发现美好生活</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="浙里风光Logo">
+                    <span>浙里风光</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">首页</a></li>
+                    <li><a href="pages/about.html">关于我们</a></li>
+                    <li><a href="pages/destinations.html">旅游目的地</a></li>
+                    <li><a href="pages/guides.html">旅游攻略</a></li>
+                    <li><a href="pages/accommodation.html">住宿推荐</a></li>
+                    <li><a href="pages/food.html">美食地图</a></li>
+                    <li><a href="pages/contact.html">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="搜索旅游信息..." id="search-input">
+                <button type="button" id="search-btn">
+                    <img src="image/search-icon.png" alt="搜索">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 轮播图区域 -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('image/topb4 (1).jpg')">
+            <div class="slide-content">
+            </div>
+            </div>
+            <div class="slide" style="background-image: url('image/banner2.jpg')">
+            <div class="slide-content">
+            </div>
+            </div>
+            <div class="slide" style="background-image: url('image/banner3.jpg')">
+            <div class="slide-content">
+            </div>
+            </div>
+        </div>
+
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+        <button class="slider-prev">&lt;</button>
+        <button class="slider-next">&gt;</button>
+    </section>
+
+    <!-- 滚动公告栏 -->
+    <section class="announcement-bar">
+        <div class="container">
+            <div class="marquee-wrapper">
+                <div class="marquee-content">
+                    <span class="marquee-item">浙里风光旅游网温馨提示：春季旅游旺季即将开启，杭州西湖樱花、宁波梅花等花卉竞相绽放！</span>
+                    <span class="marquee-item">千岛湖开渔节、雁荡山杜鹃花节期待您的参与！</span>
+                    <span class="marquee-item">夏季避暑季来临，普陀山、千岛湖等景区推出优惠活动！</span>
+                    <span class="marquee-item">秋季赏叶季即将开始，雁荡山、桐庐等地的红叶美景值得期待！</span>
+                    <span class="marquee-item">冬季养生季，温泉度假区推出各种优惠套餐，欢迎体验！</span>
+                </div>
+            </div>
+            <div class="announcement-controls">
+                <button class="announcement-pause" id="pause-btn" title="暂停公告">⏸️</button>
+                <button class="announcement-play" id="play-btn" title="播放公告" style="display:none;">▶️</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 横幅广告 -->
+    <section class="banner-ad">
+        <div class="container">
+            <div class="ad-content">
+                <div class="ad-text">
+                    <h3>浙里风光独家优惠</h3>
+                    <p>预订热门景点门票8折起！千岛湖、雁荡山、西湖等经典景点，限时特惠中！</p>
+                    <a href="#book-now" class="ad-btn">立即预订 →</a>
+                </div>
+                <div class="ad-image">
+                    <img src="image/zhejianglook.png" alt="浙江美景" style="max-width: 300px; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 四季推荐 -->
+        <section class="season-recommend">
+            <div class="container">
+                <h2 class="section-title">四季浙江，诗意栖居</h2>
+                <p class="section-subtitle">每个季节都有独特的魅力，每个季节都书写着不同的诗篇。在浙里风光，您可以跟随季节的脚步，发现最本真的浙江之美</p>
+                <div class="season-grid">
+                    <div class="season-card spring">
+                        <div class="season-image">
+                            <img src="image/spring_img.png" alt="春季踏青">
+                        </div>
+                        <div class="season-content">
+                            <h3>春季踏青</h3>
+                            <p>桃红柳绿，花开烂漫。杭州西湖边赏樱，宁波梅园观梅。</p>
+                            <div class="season-links">
+                                <a href="pages/guides.html#spring" class="btn-secondary">春季攻略</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="season-card summer">
+                        <div class="season-image">
+                            <img src="image/summer_img.png" alt="夏季避暑">
+                        </div>
+                        <div class="season-content">
+                            <h3>夏季避暑</h3>
+                            <p>湖光山色，清凉一夏。千岛湖游泳，普陀山避暑。</p>
+                            <a href="pages/guides.html#summer" class="btn-secondary">夏季攻略</a>
+                        </div>
+                    </div>
+                    <div class="season-card autumn">
+                        <div class="season-image">
+                            <img src="image/autumn_img.png" alt="秋季赏景">
+                        </div>
+                        <div class="season-content">
+                            <h3>秋季赏景</h3>
+                            <p>层林尽染，五彩斑斓。雁荡山红叶，桐庐红枫如火。</p>
+                            <a href="pages/guides.html#autumn" class="btn-secondary">秋季攻略</a>
+                        </div>
+                    </div>
+                    <div class="season-card winter">
+                        <div class="season-image">
+                            <img src="image/winter_img.png" alt="冬季养生">
+                        </div>
+                        <div class="season-content">
+                            <h3>冬季养生</h3>
+                            <p>瑞雪纷飞，温暖过冬。莫干山温泉，养生度假好去处。</p>
+                            <a href="pages/guides.html#winter" class="btn-secondary">冬季攻略</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热门景点 -->
+        <section class="popular-attractions">
+            <div class="container">
+                <h2 class="section-title">浙里经典，人文胜迹</h2>
+                <p class="section-subtitle">这些景点不仅是自然景观的瑰宝，更是中华五千年文明的生动见证。每一个景点背后，都有一段精彩的历史故事等待您去发现</p>
+                <div class="attractions-grid">
+                    <div class="attraction-card">
+                        <div class="attraction-image">
+                            <img src="image/fenlei1.jpg" alt="良渚古城">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>良渚古城遗址</h3>
+                            <p>五千年前的东方文明曙光，见证了中华五千年文明的起源。那些精美的玉器、神秘的祭坛，无不诉说着先民对天地自然的敬畏与智慧。</p>
+                            <div class="attraction-meta">
+                                <span class="location">杭州·余杭</span>
+                                <span class="rating">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <div class="attraction-image">
+                            <img src="image/fenlei2.jpg" alt="灵隐寺">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>灵隐寺</h3>
+                            <p>始建于东晋的千年古刹，"东南第一丛林"的美誉流传至今。飞来峰的奇石与寺庙的古韵交相辉映，让人感受到禅意的宁静与岁月的沉淀。</p>
+                            <div class="attraction-meta">
+                                <span class="location">杭州·西湖</span>
+                                <span class="rating">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attraction-card">
+                        <div class="attraction-image">
+                            <img src="image/fenlei3.jpg" alt="千岛湖">
+                        </div>
+                        <div class="attraction-content">
+                            <h3>千岛湖风景区</h3>
+                            <p>中国第一大人工淡水湖，"天下第一秀水"的美誉名副其实。一千多个岛屿点缀在碧波之上，水质清澈得可以看到湖底的卵石，这是大自然赐予人类的瑰宝。</p>
+                            <div class="attraction-meta">
+                                <span class="location">杭州·淳安</span>
+                                <span class="rating">⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="pages/destinations.html" class="btn-primary">查看全部景点</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 相关资料推荐 -->
+        <section class="related-resources" style="padding: 80px 0; background: #f8f9fa;">
+            <div class="container">
+                <h2 class="section-title">相关资料推荐</h2>
+                <p class="section-subtitle">深度了解浙江文化与旅游资源</p>
+                <div class="resources-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; justify-items: center; font-family: 'Microsoft YaHei', Arial, sans-serif;">
+                    <div class="resource-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);">
+                        <div class="resource-header" style="background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; padding: 20px;">
+                            <h3 style="margin: 0; font-size: 1.3rem;">浙江美食文化</h3>
+                            <p style="margin: 5px 0 0; opacity: 0.9; font-size: 14px;">品味八大菜系之一的浙菜</p>
+                        </div>
+                        <div class="resource-content" style="padding: 20px;">
+                            <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">西湖醋鱼、宁波汤圆、绍兴臭豆腐……浙菜以鲜、嫩、爽、脆著称，体现了浙江人精致的生活态度。</p>
+                            <div class="resource-links">
+                                <a href="pages/food.html" class="resource-link">美食地图 →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resource-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);">
+                        <div class="resource-header" style="background: linear-gradient(135deg, #9b59b6, #8e44ad); color: white; padding: 20px;">
+                            <h3 style="margin: 0; font-size: 1.3rem;">浙江建筑艺术</h3>
+                            <p style="margin: 5px 0 0; opacity: 0.9; font-size: 14px;">欣赏江南水乡建筑之美</p>
+                        </div>
+                        <div class="resource-content" style="padding: 20px;">
+                            <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">从乌镇古建筑群到西塘水乡，从宁波天一阁到杭州岳庙，浙江的建筑艺术体现了儒释道的哲学思想。</p>
+                            <div class="resource-links">
+                                <a href="pages/destinations.html" class="resource-link">古建筑景点 →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>浙里风光</h3>
+                    <p>浙里风光旅游网致力于为您呈现最美的浙江风景，分享最真实的旅行体验。我们用心挑选每一处景点，为您提供最实用的旅游攻略。</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">微信公众号</a>
+                        <a href="#" class="social-link">微博</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>快速导航</h3>
+                    <ul class="footer-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="pages/about.html">关于我们</a></li>
+                        <li><a href="pages/destinations.html">旅游目的地</a></li>
+                        <li><a href="pages/contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>友情链接</h3>
+                    <div class="friend-links">
+                        <a href="#" target="_blank">浙江省旅游局</a>
+                        <a href="#" target="_blank">杭州旅游委员会</a>
+                        <a href="#" target="_blank">宁波旅游局</a>
+                        <a href="#" target="_blank">绍兴旅游</a>
+                        <a href="#" target="_blank">中国国家旅游局</a>
+                        <a href="#" target="_blank">携程旅行网</a>
+                        <a href="#" target="_blank">去哪儿网</a>
+                        <a href="#" target="_blank">浙江大学</a>
+                        <a href="#" target="_blank">浙江师范大学</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 浙里风光旅游网 历运志制作</p>
+                <div class="back-to-top">
+                    <a href="#top" id="back-to-top-btn">返回顶部 ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/effects.js"></script>
+</body>
+</html>

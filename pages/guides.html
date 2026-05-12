@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="浙江旅游攻略，提供四季旅游指南和实用旅行tips。">
+    <meta name="keywords" content="浙江旅游攻略,四季旅游,旅行指南">
+    <link rel="icon" href="../image/logo.png" type="image/png">
+    <title>旅游攻略 - 浙里风光旅游网</title>
+    <link rel="stylesheet" href="../css/guides.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../image/logo.png" alt="浙里风光Logo">
+                    <span>浙里风光</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="destinations.html">旅游目的地</a></li>
+                    <li><a href="guides.html" class="active">旅游攻略</a></li>
+                    <li><a href="accommodation.html">住宿推荐</a></li>
+                    <li><a href="food.html">美食地图</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header" style="margin-top: 80px; background: linear-gradient(135deg, #4CAF50, #45a049); color: white; padding: 60px 0;">
+        <div class="container">
+            <h1>旅游攻略</h1>
+            <p class="breadcrumb">
+                <a href="../index.html">首页</a> > 旅游攻略
+            </p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <!-- 四季攻略 -->
+        <section class="season-guides">
+            <div class="container">
+                <h2 class="section-title">四季浙江攻略</h2>
+                <p class="section-subtitle">跟随季节的脚步，发现最美的浙江</p>
+
+                <div class="tabs">
+                    <!-- 标签页按钮 -->
+                    <div class="tab-buttons">
+                        <button class="tab-button" data-tab="spring">春季攻略</button>
+                        <button class="tab-button" data-tab="summer">夏季攻略</button>
+                        <button class="tab-button" data-tab="autumn">秋季攻略</button>
+                        <button class="tab-button" data-tab="winter">冬季攻略</button>
+                    </div>
+
+                    <!-- 春季内容 -->
+                    <div id="spring" class="tab-content">
+                        <div class="season-intro-grid">
+                            <div class="intro-text">
+                                <h2 style="color: #2c3e50; margin-bottom: 20px;">桃红柳绿，春光无限</h2>
+                                <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 20px;">
+                                    三月浙江春风暖，草长莺飞花烂漫。西湖边的樱花、梅园里的梅花、东钱湖的桃花...每一处都是春天的画卷，每一朵都是春天的诗篇。
+                                </p>
+                                <div class="season-info" style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    <h3 style="color: #FF6B6B; margin-bottom: 15px;">春季旅行指数</h3>
+                                    <ul style="list-style: none; padding: 0;">
+                                        <li style="margin-bottom: 10px;"><strong>最佳时间：</strong>3月中旬-4月下旬</li>
+                                        <li style="margin-bottom: 10px;"><strong>气温范围：</strong>15-25℃</li>
+                                        <li style="margin-bottom: 10px;"><strong>降雨概率：</strong>适中（建议带雨具）</li>
+                                        <li style="margin-bottom: 10px;"><strong>人流量：</strong>★★★☆☆（较为舒适）</li>
+                                        <li><strong>人均消费：</strong>¥300-800/天</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="intro-image" style="text-align: center;">
+                                <img src="../image/spring_img.png" alt="春季美景" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);">
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin-bottom: 30px;">赏花路线推荐</h3>
+                        <div class="season-routes-grid">
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/guanmei.jpg" alt="梅园观梅">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">梅园观梅路线</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">宁波最著名的梅花观赏地，梅花竞相绽放，香气扑鼻，宛如置身于梅花的海洋。</p>
+                                    <div class="route-details">
+                                        <span><strong>花期：</strong>2月中旬-3月中旬</span>
+                                        <span><strong>地点：</strong>宁波梅园、天童寺</span>
+                                        <span><strong>时间：</strong>建议1-2小时</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/taqing.jpg" alt="东钱湖踏青">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">东钱湖踏青路线</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">湖边桃花烂漫，草长莺飞，是春季踏青的最佳去处，可体验采茶、垂钓等乡村活动。</p>
+                                    <div class="route-details">
+                                        <span><strong>花期：</strong>3月下旬-4月上旬</span>
+                                        <span><strong>地点：</strong>东钱湖风景区</span>
+                                        <span><strong>时间：</strong>建议3-4小时</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="travel-tips-grid" style="margin-top: 60px;">
+                            <div class="tips-section">
+                                <h3>必备物品</h3>
+                                <ul>
+                                    <li>防晒霜（UV指数较高）</li>
+                                    <li>轻便雨伞或雨衣</li>
+                                    <li>舒适的运动鞋</li>
+                                    <li>相机或手机三脚架</li>
+                                </ul>
+                            </div>
+                            <div class="tips-section">
+                                <h3>注意事项</h3>
+                                <ul>
+                                    <li>花期短暂，要把握时机</li>
+                                    <li>早晚温差大，注意保暖</li>
+                                    <li>热门景点可能人多</li>
+                                    <li>提前预订住宿和门票</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin: 60px 0 30px;">相关推荐</h3>
+                        <div class="related-grid">
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/f1.jpg" alt="美食推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>春季美食</h3>
+                                    <p>春笋、春菜、春茶，尝鲜时令美味</p>
+                                    <a href="food.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/min.jpg" alt="民宿推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>赏花民宿</h3>
+                                    <p>面朝花海，诗意栖居</p>
+                                    <a href="accommodation.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/history.jpg" alt="文化体验">
+                                </div>
+                                <div class="related-content">
+                                    <h3>本地景色</h3>
+                                    <p>探寻浙江传统文化</p>
+                                    <a href="destinations.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 夏季内容 -->
+                    <div id="summer" class="tab-content">
+                        <div class="season-intro-grid">
+                            <div class="intro-text">
+                                <h2 style="color: #2c3e50; margin-bottom: 20px;">湖光山色，清凉一夏</h2>
+                                <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 20px;">
+                                    夏日浙江，碧波万顷，山清水秀。千岛湖的清澈湖水，普陀山的海风习习，都是避暑纳凉的绝佳去处。
+                                </p>
+                                <div class="season-info" style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    <h3 style="color: #4ECDC4; margin-bottom: 15px;">夏季旅行指数</h3>
+                                    <ul style="list-style: none; padding: 0;">
+                                        <li style="margin-bottom: 10px;"><strong>最佳时间：</strong>6月中旬-8月下旬</li>
+                                        <li style="margin-bottom: 10px;"><strong>气温范围：</strong>25-35℃</li>
+                                        <li style="margin-bottom: 10px;"><strong>降雨概率：</strong>较高（午后雷阵雨）</li>
+                                        <li style="margin-bottom: 10px;"><strong>人流量：</strong>★★★★☆（较为拥挤）</li>
+                                        <li><strong>人均消费：</strong>¥400-1000/天</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="intro-image" style="text-align: center;">
+                                <img src="../image/summer_img.png" alt="夏季美景" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);">
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin-bottom: 30px;">避暑路线推荐</h3>
+                        <div class="season-routes-grid">
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/fenlei3.jpg" alt="千岛湖">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">千岛湖避暑之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">中国第一大人工淡水湖，水质清澈透明，是夏季游泳、游艇、垂钓的绝佳场所。</p>
+                                    <div class="route-details">
+                                        <span><strong>活动：</strong>游泳、游艇、钓鱼</span>
+                                        <span><strong>地点：</strong>千岛湖风景区</span>
+                                        <span><strong>时间：</strong>建议1-2天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/qingliang.jpg" alt="普陀山">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">普陀山清凉之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">海天佛国，梵音袅袅。山间清风习习，是夏季避暑的绝佳去处。</p>
+                                    <div class="route-details">
+                                        <span><strong>特色：</strong>海滨寺庙，清凉避暑</span>
+                                        <span><strong>地点：</strong>舟山普陀山</span>
+                                        <span><strong>时间：</strong>建议1天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/bg.jpg" alt="嵊泗岛">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">嵊泗岛海钓之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">中国最美海岛之一，清澈的海水和丰富的海洋生物，让您尽享海钓乐趣。</p>
+                                    <div class="route-details">
+                                        <span><strong>活动：</strong>海钓、潜水、观潮</span>
+                                        <span><strong>地点：</strong>舟山嵊泗列岛</span>
+                                        <span><strong>时间：</strong>建议2-3天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="travel-tips-grid" style="margin-top: 60px;">
+                            <div class="tips-section">
+                                <h3>必备物品</h3>
+                                <ul>
+                                    <li>防晒霜和防晒衣</li>
+                                    <li>泳衣和泳镜</li>
+                                    <li>轻便拖鞋</li>
+                                    <li>驱蚊用品</li>
+                                </ul>
+                            </div>
+                            <div class="tips-section">
+                                <h3>注意事项</h3>
+                                <ul>
+                                    <li>注意防晒，避免中暑</li>
+                                    <li>选择正规游泳场所</li>
+                                    <li>海上活动注意安全</li>
+                                    <li>提前预订热门景点</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin: 60px 0 30px;">相关推荐</h3>
+                        <div class="related-grid">
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/f1.jpg" alt="美食推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>夏季美食</h3>
+                                    <p>清凉解暑，夏日美食推荐</p>
+                                    <a href="food.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/min.jpg" alt="民宿推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>避暑民宿</h3>
+                                    <p>清凉舒适，夏日度假首选</p>
+                                    <a href="accommodation.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/history.jpg" alt="文化体验">
+                                </div>
+                                <div class="related-content">
+                                    <h3>水上活动</h3>
+                                    <p>体验浙江水上文化</p>
+                                    <a href="destinations.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 秋季内容 -->
+                    <div id="autumn" class="tab-content">
+                        <div class="season-intro-grid">
+                            <div class="intro-text">
+                                <h2 style="color: #2c3e50; margin-bottom: 20px;">层林尽染，五彩斑斓</h2>
+                                <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 20px;">
+                                    金秋浙江，美不胜收。雁荡山的红叶似火，桐庐的枫叶如霞，普陀山的银杏金黄，每一处都是大自然的调色板。
+                                </p>
+                                <div class="season-info" style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    <h3 style="color: #FF8C42; margin-bottom: 15px;">秋季旅行指数</h3>
+                                    <ul style="list-style: none; padding: 0;">
+                                        <li style="margin-bottom: 10px;"><strong>最佳时间：</strong>10月中旬-11月下旬</li>
+                                        <li style="margin-bottom: 10px;"><strong>气温范围：</strong>15-25℃</li>
+                                        <li style="margin-bottom: 10px;"><strong>降雨概率：</strong>适中（秋高气爽）</li>
+                                        <li style="margin-bottom: 10px;"><strong>人流量：</strong>★★★☆☆（较为舒适）</li>
+                                        <li><strong>人均消费：</strong>¥350-900/天</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="intro-image" style="text-align: center;">
+                                <img src="../image/autumn_img.png" alt="秋季美景" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);">
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin-bottom: 30px;">赏叶路线推荐</h3>
+                        <div class="season-routes-grid">
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/fenlei4.jpg" alt="雁荡山">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">雁荡山红叶之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">"天下奇秀"雁荡山，秋季红叶漫山遍野，色彩斑斓，与奇峰怪石交相辉映。</p>
+                                    <div class="route-details">
+                                        <span><strong>最佳观赏：</strong>10月下旬-11月中旬</span>
+                                        <span><strong>地点：</strong>温州雁荡山</span>
+                                        <span><strong>时间：</strong>建议1-2天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/hongfenggu.jpg" alt="桐庐红枫">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">桐庐红枫之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">富春江畔的红枫如霞似火，漫山遍野的色彩斑斓，让人流连忘返。</p>
+                                    <div class="route-details">
+                                        <span><strong>最佳观赏：</strong>11月上旬-11月中旬</span>
+                                        <span><strong>地点：</strong>杭州桐庐</span>
+                                        <span><strong>时间：</strong>建议1天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/ng.jpg" alt="普陀山银杏">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">普陀山银杏之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">普陀山的银杏林金黄灿烂，与蓝天白云交相辉映，美不胜收。</p>
+                                    <div class="route-details">
+                                        <span><strong>最佳观赏：</strong>11月上旬-11月下旬</span>
+                                        <span><strong>地点：</strong>舟山普陀山</span>
+                                        <span><strong>时间：</strong>建议1天</span>
+                                    </div>
+                                    <a href="destinations.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="travel-tips-grid" style="margin-top: 60px;">
+                            <div class="tips-section">
+                                <h3>必备物品</h3>
+                                <ul>
+                                    <li>轻便外套和长裤</li>
+                                    <li>舒适的登山鞋</li>
+                                    <li>相机和三脚架</li>
+                                    <li>防晒霜和帽子</li>
+                                </ul>
+                            </div>
+                            <div class="tips-section">
+                                <h3>注意事项</h3>
+                                <ul>
+                                    <li>叶期短暂，要把握时机</li>
+                                    <li>山路较多，注意安全</li>
+                                    <li>早晚温差大，注意保暖</li>
+                                    <li>提前了解天气情况</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin: 60px 0 30px;">相关推荐</h3>
+                        <div class="related-grid">
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/f1.jpg" alt="美食推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>秋季美食</h3>
+                                    <p>时令美食，秋季养生佳品</p>
+                                    <a href="food.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/min.jpg" alt="民宿推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>赏叶民宿</h3>
+                                    <p>面朝红叶，秋色宜人</p>
+                                    <a href="accommodation.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/history.jpg" alt="文化体验">
+                                </div>
+                                <div class="related-content">
+                                    <h3>摄影景点</h3>
+                                    <p>捕捉秋日美丽瞬间</p>
+                                    <a href="destinations.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 冬季内容 -->
+                    <div id="winter" class="tab-content">
+                        <div class="season-intro-grid">
+                            <div class="intro-text">
+                                <h2 style="color: #2c3e50; margin-bottom: 20px;">瑞雪纷飞，温暖过冬</h2>
+                                <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 20px;">
+                                    冬日浙江，别有韵味。莫干山温泉温暖宜人，东白山温泉养生度假，农家乐里的暖炕头，带给你不同的冬季体验。
+                                </p>
+                                <div class="season-info" style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    <h3 style="color: #5DADE2; margin-bottom: 15px;">冬季旅行指数</h3>
+                                    <ul style="list-style: none; padding: 0;">
+                                        <li style="margin-bottom: 10px;"><strong>最佳时间：</strong>12月-次年2月</li>
+                                        <li style="margin-bottom: 10px;"><strong>气温范围：</strong>5-15℃</li>
+                                        <li style="margin-bottom: 10px;"><strong>降雪概率：</strong>较低（南部地区）</li>
+                                        <li style="margin-bottom: 10px;"><strong>人流量：</strong>★★☆☆☆（较为清静）</li>
+                                        <li><strong>人均消费：</strong>¥250-700/天</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="intro-image" style="text-align: center;">
+                                <img src="../image/winter_img.png" alt="冬季美景" style="width: 100%; max-width: 400px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);">
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin-bottom: 30px;">温泉养生路线</h3>
+                        <div class="season-routes-grid">
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/wenquanminsu.jpg" alt="莫干山温泉">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">莫干山温泉度假</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">国际温泉之都，拥有40多个温泉品牌，汤质优良，水温适宜，是冬季养生度假的绝佳选择。</p>
+                                    <div class="route-details">
+                                        <span><strong>特色：</strong>多种温泉类型，SPA服务</span>
+                                        <span><strong>地点：</strong>湖州莫干山</span>
+                                        <span><strong>时间：</strong>建议1-2天</span>
+                                    </div>
+                                    <a href="accommodation.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/bg.jpg" alt="东白山温泉">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">东白山温泉之旅</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">东白山温泉以水质优良、富含矿物质著称，是养生度假的理想场所。</p>
+                                    <div class="route-details">
+                                        <span><strong>特色：</strong>矿物质丰富，养生功效</span>
+                                        <span><strong>地点：</strong>绍兴东白山</span>
+                                        <span><strong>时间：</strong>建议1天</span>
+                                    </div>
+                                    <a href="accommodation.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="route-card">
+                                <div class="route-image">
+                                    <img src="../image/nongjiale.jpg" alt="农家乐体验">
+                                </div>
+                                <div class="route-content">
+                                    <h3 style="color: #2c3e50; margin-bottom: 10px;">农家乐暖炕体验</h3>
+                                    <p style="color: #7f8c8d; line-height: 1.6; margin-bottom: 15px;">体验浙江乡村的冬天，暖炕头、农家菜、淳朴民风，让您感受不一样的冬季温暖。</p>
+                                    <div class="route-details">
+                                        <span><strong>特色：</strong>乡村体验，农家美食</span>
+                                        <span><strong>地点：</strong>浙北浙西乡村地区</span>
+                                        <span><strong>时间：</strong>建议1-2天</span>
+                                    </div>
+                                    <a href="accommodation.html" class="btn-secondary" style="width: 100%; text-align: center; display: block;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="travel-tips-grid" style="margin-top: 60px;">
+                            <div class="tips-section">
+                                <h3>必备物品</h3>
+                                <ul>
+                                    <li>保暖内衣和羽绒服</li>
+                                    <li>保温水杯和暖宝宝</li>
+                                    <li>防滑鞋和护手霜</li>
+                                    <li>温泉专用泳衣</li>
+                                </ul>
+                            </div>
+                            <div class="tips-section">
+                                <h3>注意事项</h3>
+                                <ul>
+                                    <li>温泉水温较高，适度浸泡</li>
+                                    <li>入温泉前先淋浴清洁</li>
+                                    <li>注意保暖，避免感冒</li>
+                                    <li>选择正规温泉场所</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 style="color: #2c3e50; margin: 60px 0 30px;">相关推荐</h3>
+                        <div class="related-grid">
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/f1.jpg" alt="美食推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>冬季美食</h3>
+                                    <p>暖胃美食，冬季养生料理</p>
+                                    <a href="food.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/min.jpg" alt="民宿推荐">
+                                </div>
+                                <div class="related-content">
+                                    <h3>温泉民宿</h3>
+                                    <p>舒适温暖，温泉度假体验</p>
+                                    <a href="accommodation.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                            <div class="related-card">
+                                <div class="related-image">
+                                    <img src="../image/history.jpg" alt="文化体验">
+                                </div>
+                                <div class="related-content">
+                                    <h3>养生文化</h3>
+                                    <p>体验浙江传统养生文化</p>
+                                    <a href="destinations.html" class="btn-secondary" style="font-size: 14px; padding: 8px 20px;">查看详情</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 实用攻略 -->
+        <section class="practical-guides" style="background: #f8f9fa; padding: 80px 0;">
+            <div class="container">
+                <h2 class="section-title">实用攻略</h2>
+                <div class="guides-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div class="guide-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);">
+                        <div class="guide-header" style="background: linear-gradient(135deg, #FF6B6B, #FF8E8E); color: white; padding: 20px;">
+                            <h3 style="margin: 0; font-size: 1.3rem;">交通指南</h3>
+                            <p style="margin: 5px 0 0; opacity: 0.9;">高铁、飞机、公交全攻略</p>
+                        </div>
+                        <div class="guide-content" style="padding: 20px;">
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #FF6B6B; margin-right: 10px;"></span>
+                                    <span>高铁：杭州东站直达各市</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #FF6B6B; margin-right: 10px;"></span>
+                                    <span>飞机：萧山机场国际航线</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #FF6B6B; margin-right: 10px;"></span>
+                                    <span>公交：城际巴士便捷出行</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="guide-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);">
+                        <div class="guide-header" style="background: linear-gradient(135deg, #4ECDC4, #45B7AA); color: white; padding: 20px;">
+                            <h3 style="margin: 0; font-size: 1.3rem;">住宿推荐</h3>
+                            <p style="margin: 5px 0 0; opacity: 0.9;">星级酒店到民宿全选择</p>
+                        </div>
+                        <div class="guide-content" style="padding: 20px;">
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #4ECDC4; margin-right: 10px;"></span>
+                                    <span>西湖区：豪华酒店林立</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #4ECDC4; margin-right: 10px;"></span>
+                                    <span>民宿：古镇特色体验</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #4ECDC4; margin-right: 10px;"></span>
+                                    <span>预算：¥200-2000/晚</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="guide-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);">
+                        <div class="guide-header" style="background: linear-gradient(135deg, #A8E6CF, #95D5B2); color: white; padding: 20px;">
+                            <h3 style="margin: 0; font-size: 1.3rem;">美食攻略</h3>
+                            <p style="margin: 5px 0 0; opacity: 0.9;">浙江特色美食全解析</p>
+                        </div>
+                        <div class="guide-content" style="padding: 20px;">
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #A8E6CF; margin-right: 10px;"></span>
+                                    <span>杭州：西湖醋鱼、龙井虾仁</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #A8E6CF; margin-right: 10px;"></span>
+                                    <span>宁波：宁波汤圆、蟹黄小笼</span>
+                                </li>
+                                <li style="margin-bottom: 10px; display: flex; align-items: center;">
+                                    <span style="color: #A8E6CF; margin-right: 10px;"></span>
+                                    <span>绍兴：霉干菜烧肉、臭豆腐</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 旅行贴士 -->
+        <section class="travel-tips" style="padding: 80px 0;">
+            <div class="container">
+                <h2 class="section-title">旅行贴士</h2>
+                <div class="tips-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div class="tip-card" style="background: #E8F5E8; border-radius: 10px; padding: 25px; text-align: center;">
+                        <div class="tip-icon" style="font-size: 3rem; margin-bottom: 15px;"></div>
+                        <h3 style="color: #2c3e50; margin-bottom: 10px;">门票预订</h3>
+                        <p style="color: #7f8c8d; line-height: 1.6;">建议提前在官方网站或官方APP预订热门景点门票，可享受折扣优惠。</p>
+                    </div>
+                    <div class="tip-card" style="background: #FFF3E0; border-radius: 10px; padding: 25px; text-align: center;">
+                        <div class="tip-icon" style="font-size: 3rem; margin-bottom: 15px;"></div>
+                        <h3 style="color: #2c3e50; margin-bottom: 10px;">天气准备</h3>
+                        <p style="color: #7f8c8d; line-height: 1.6;">浙江气候多变，建议查看天气预报，准备雨伞、防晒霜等必备物品。</p>
+                    </div>
+                    <div class="tip-card" style="background: #F3E5F5; border-radius: 10px; padding: 25px; text-align: center;">
+                        <div class="tip-icon" style="font-size: 3rem; margin-bottom: 15px;"></div>
+                        <h3 style="color: #2c3e50; margin-bottom: 10px;">路线规划</h3>
+                        <p style="color: #7f8c8d; line-height: 1.6;">使用高铁+公交的组合方式，既节省时间又经济实惠。</p>
+                    </div>
+                    <div class="tip-card" style="background: #E1F5FE; border-radius: 10px; padding: 25px; text-align: center;">
+                        <div class="tip-icon" style="font-size: 3rem; margin-bottom: 15px;"></div>
+                        <h3 style="color: #2c3e50; margin-bottom: 10px;">语言交流</h3>
+                        <p style="color: #7f8c8d; line-height: 1.6;">浙江人热情好客，大部分地区普通话通行，使用翻译软件更方便。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>浙里风光</h3>
+                    <p>浙里风光旅游网致力于为您呈现最美的浙江风景。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 浙里风光旅游网 历运志制作</p>
+                <div class="back-to-top">
+                    <a href="#top" id="back-to-top-btn">返回顶部 ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // 标签页切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            function activateTab(tabId) {
+                // 移除所有活动状态
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                // 添加当前活动状态
+                const targetButton = document.querySelector(`.tab-button[data-tab="${tabId}"]`);
+                const targetContent = document.getElementById(tabId);
+
+                if (targetButton && targetContent) {
+                    targetButton.classList.add('active');
+                    targetContent.classList.add('active');
+                }
+            }
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const tabId = button.getAttribute('data-tab');
+                    activateTab(tabId);
+                    // 更新URL哈希
+                    history.replaceState(null, null, '#' + tabId);
+                });
+            });
+
+            // 检查URL哈希并激活对应标签页
+            const hash = window.location.hash.substring(1); // 移除#符号
+            const validTabs = ['spring', 'summer', 'autumn', 'winter'];
+
+            if (validTabs.includes(hash)) {
+                activateTab(hash);
+            } else {
+                // 默认显示春季标签页
+                activateTab('spring');
+            }
+        });
+    </script>
+</body>
+</html>
